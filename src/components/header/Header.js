@@ -23,13 +23,13 @@ class Header extends Component {
       <Fade top duration={1000} distance="20px">
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo">
+            {/* <NavLink to={link} tag={Link} className="logo">
               <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
               <span style={{ color: theme.text }}>/&gt;</span>
-            </NavLink>
+            </NavLink> */}
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
@@ -47,7 +47,7 @@ class Header extends Component {
                   Home
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/education"
                   tag={Link}
@@ -58,7 +58,7 @@ class Header extends Component {
                 >
                   Education
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/experience"
@@ -71,7 +71,7 @@ class Header extends Component {
                   Experience
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/projects"
                   tag={Link}
@@ -82,8 +82,8 @@ class Header extends Component {
                 >
                   Projects
                 </NavLink>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -94,7 +94,7 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"
